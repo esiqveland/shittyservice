@@ -12,7 +12,7 @@ import (
 	"time"
 )
 
-var response = []byte("pong")
+var response = []byte(`{"answer": "pong"}`)
 
 const port = ":7999"
 
